@@ -9,30 +9,33 @@ var specialchar = '!"#$%&\'()*+,-./:;<=>?@^[\\]^_`{|}~';
 
 var numbers = '0123456789';
 
-var lowercaseconf = confirm("Do you want lowercase characters?");
+
+var lowerC = confirm("Do you want lowercase characters?");
 //console.log (lowercase);//
 
-var uppercase = confirm("Do you want uppercase characters?");
+var UpperC = confirm("Do you want uppercase characters?");
 //console.log (uppercase);//
 
-var specialchar = confirm("Do you want special characters?");
+var specialC = confirm("Do you want special characters?");
 //console.log (specialchar);//
 
-var numbers = confirm("Do you want numbers?");
+var numbersC = confirm("Do you want numbers?");
 //console.log (numbers);//
 
-var passwordLength = prompt("How long do you want the password to be? (Choose 8-128 characters)")
+var passwordLength = prompt("How long do you want the password to be? (Choose 8-128 characters)");
 //console.log (passwordLength);//
 
 if (passwordLength < 8 || passwordLength > 128){
   alert("Nope. Try again! You must enter 8-128 characters");
 }
 
-
 //Generate the password//
-if (lowercase === true){
-  
-}
+
+
+ 
+
+
+
 
 //Unveiling the password//
 
@@ -46,6 +49,8 @@ function writePassword() {
 function generatePassword() {
   return "password";
 }
+
+
 
 generateBtn.addEventListener("click", writePassword);
 

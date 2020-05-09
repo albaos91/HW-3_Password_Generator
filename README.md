@@ -31,7 +31,11 @@ THEN I choose a length of at least 8 characters and no more than 128 characters
 
 - WHEN the password is generated THEN the password is either displayed in an alert or written to the page
 
+## Installation
 
-
-Creating an application that generates a random password based on user-selected criteria.
-Then I listed my variables such as password length, numbers, lower case letters, upper case letters and special characters.
+1. I started the project by declaring my variables
+2. As variables I listed my criterias: lowercase letters, uppercase letters, special characters and numbers
+3. Then I created the prompts for each criteria and made sure they ran
+4. You can use console.log to make sure your code is running
+5. I created an if statement to make sure that if a user enters less then 8 and more than 128 characters a notifying prompt would pop up.
+6. 

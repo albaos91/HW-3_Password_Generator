@@ -38,4 +38,3 @@ THEN I choose a length of at least 8 characters and no more than 128 characters
 3. Then I created the prompts for each criteria and made sure they ran
 4. You can use console.log to make sure your code is running
 5. I created an if statement to make sure that if a user enters less then 8 and more than 128 characters a notifying prompt would pop up.
-6. 
